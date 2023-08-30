@@ -21,9 +21,9 @@ func main() {
 	fmt.Println(***fourth)
 
 	names := []string{"first", "second", "third", "fourth"}
-	n := make([]string, len(names))
+	// n := make([]string, len(names))
 
-	n = names
+	// n = names
 	sort.Strings(names[:])
 
 }
